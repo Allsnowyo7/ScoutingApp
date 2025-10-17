@@ -1,0 +1,24 @@
+import { useState } from 'react';
+
+export function ScoreButton({count, setCount}) {
+    // const [count, setCount] = useState(0);
+  
+    function add() {
+      setCount(count + 1);
+    }
+    function sub() {
+      setCount(count - 1);
+    }
+  
+     return (
+      <div>
+        <p1>Count: {count}</p1>
+      <button onClick={add}>
+        +1
+      </button>
+       <button onClick={sub}>
+        -1
+      </button>
+      </div>
+    );
+  }
