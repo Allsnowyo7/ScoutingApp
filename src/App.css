@@ -24,6 +24,30 @@
   color: white;
 }
 
+.ScoreButtonContainer{
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  display: grid;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px 5px;
+  color: #080808;
+}
+.ScoreButtonHeading {
+  background-color:#282c34;
+  font-size: large;
+  padding: 0px 20px 0px;
+  color:rgb(182, 182, 182);
+}
+
+.ScoreButtonGrid{
+  width:300px;
+  color:bisque;
+  display:table;
+}
+
 .App-button {
   min-height: 500vh;
   font-size: calc(10px + 2vmin);
