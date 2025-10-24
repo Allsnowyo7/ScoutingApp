@@ -19,7 +19,8 @@ const handleSubmit = (e) => {
   axios
     .post(
       'https://script.google.com/macros/s/AKfycbwNluKKBqlj7pUOjcYYnyCfO86rPxd5E4FJixmpldCHjkY5u8LP2woVBfJNnamv1gA/exec',
-      ["Match: 1"]
+     {Match: "1"},
+     {headers: { "Content-Type": "application/json" }}
     )
     .then((response) => {
       console.log(response);
