@@ -18,13 +18,12 @@ const handleSubmit = (e) => {
 
   axios
     .post(
-      'https://script.google.com/macros/s/AKfycbwNluKKBqlj7pUOjcYYnyCfO86rPxd5E4FJixmpldCHjkY5u8LP2woVBfJNnamv1gA/exec',
+      'https://scoutingapp.edelvalle26.workers.dev',
      {Match: "1"},
      {headers: { "Content-Type": "application/json" }}
     )
-    .then((response) => {
-      console.log(response);
-    });
+.then((res) => console.log("✅ Success:", res.data))
+.catch((err) => console.error("❌ Error:", err.response || err.message));
 };
  return (
    <div>
