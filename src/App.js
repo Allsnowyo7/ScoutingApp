@@ -20,7 +20,7 @@ const handleSubmit = (e) => {
     .post(
       'https://scoutingapp.edelvalle26.workers.dev',
      {Match: "1"},
-     {headers: { "Content-Type": "application/json" }}
+     {headers: { "Content-Type": "application/json" },  withCredentials: false}
     )
 .then((res) => console.log("✅ Success:", res.data))
 .catch((err) => console.error("❌ Error:", err.response || err.message));
