@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ScoutingApp/static/css/main.5434c94c.css",
-    "main.js": "/ScoutingApp/static/js/main.c946abd5.js",
+    "main.js": "/ScoutingApp/static/js/main.3904924f.js",
     "static/js/453.042f6385.chunk.js": "/ScoutingApp/static/js/453.042f6385.chunk.js",
     "service-worker.js": "/ScoutingApp/service-worker.js",
     "index.html": "/ScoutingApp/index.html",
     "main.5434c94c.css.map": "/ScoutingApp/static/css/main.5434c94c.css.map",
-    "main.c946abd5.js.map": "/ScoutingApp/static/js/main.c946abd5.js.map",
+    "main.3904924f.js.map": "/ScoutingApp/static/js/main.3904924f.js.map",
     "453.042f6385.chunk.js.map": "/ScoutingApp/static/js/453.042f6385.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5434c94c.css",
-    "static/js/main.c946abd5.js"
+    "static/js/main.3904924f.js"
   ]
 }
