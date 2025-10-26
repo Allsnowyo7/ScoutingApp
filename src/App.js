@@ -26,11 +26,11 @@ const handleSubmit = (e) => {
  return (
    <div>
     <h1> imConfused </h1>
-    <button title='l1' onClick={setCountL1(countL1 + 1)}/>
-    <button title='l2' onClick={setCountL2(countL2 + 1)}/>
-    <button title='l3' onClick={setCountL3(countL3 + 1)}/>
-    <button title='l4' onClick={setCountL4(countL4 + 1)}/>
-    <button onClick={handleSubmit}/>
+    <ScoreButton title={"l1"} count={countL1} setCount={setCountL1}/>
+    <ScoreButton title={"l2"} count={countL2} setCount={setCountL2}/>
+    <ScoreButton title={"l3"}count={countL3} setCount={setCountL3}/>
+    <ScoreButton title={"l4"}count={countL4} setCount={setCountL4}/>
+    <button title='submit' onClick={handleSubmit}/>
     </div>
   );
 }

@@ -1,7 +1,6 @@
 import { useState } from 'react';
 
-export function ScoreButton({count, setCount}) {
-    // const [count, setCount] = useState(0);
+export function ScoreButton({title, count, setCount}) { 
   
     function add() {
       setCount(count + 1);
@@ -12,7 +11,7 @@ export function ScoreButton({count, setCount}) {
   
      return (
       <div>
-        <p1>Count: {count}</p1>
+        <p1> {title}: {count}</p1>
       <button onClick={add}>
         +1
       </button>
